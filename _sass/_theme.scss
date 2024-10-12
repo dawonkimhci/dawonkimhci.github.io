@@ -9,7 +9,9 @@
 }
 
 #theme-toggler:before {
-  @include themed(content, "dark", "light");
+  @include themed(content, "\f185", "\f186"); // Use sun (\f185) for day and moon (\f186) for night
+  font-family: 'Font Awesome 5 Free'; // Ensure Font Awesome font is applied
+  font-weight: 900; // Font Awesome solid icons require this weight
 }
 
 .navbar-themed {
