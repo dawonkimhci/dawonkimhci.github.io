@@ -9,7 +9,7 @@
 }
 
 #theme-toggler:before {
-  @include themed(content, "Night", "Day");
+  @include themed(content, "dark", "light");
 }
 
 .navbar-themed {
