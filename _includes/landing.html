@@ -1,19 +1,23 @@
-<div class="row justify-content-center align-items-center p-4">
-    <div class="col-lg-6 col-md-6 text-center mt-4">
-
-        <!-- Fine Circle Responsive Image -->
-        <div id="container" class="my-2">
-            <div id="dummy"></div>
-            <div id="element">
-                <img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-image wow animated fadeIn" data-wow-delay=".1s">
+<div class="container">
+    <div class="row justify-content-center align-items-center p-4">
+        <!-- 왼쪽 텍스트 (큰 화면) -->
+        <div class="col-lg-6 col-md-12 text-center text-lg-start mt-4">
+            <div class="text-muted wow animated fadeIn" data-wow-delay=".25s">
+                <h4>
+                    I am an interdisciplinary researcher focused on advancing humanity through human-centered technology and design. My work lies at the intersection of art, technology, and society, striving to create a better, more livable world.
+                </h4>
             </div>
         </div>
 
-        <div class="text-muted wow animated fadeIn" data-wow-delay=".25s">
-            <h3>
-                I am an interdisciplinary researcher focused on advancing humanity through human-centered technology and design. My work lies at the intersection of art, technology, and society, striving to create a better, more livable world.
-            </h3>
+        <!-- 오른쪽 이미지 (큰 화면) -->
+        <div class="col-lg-6 col-md-12 text-center mt-4">
+            <div id="container" class="my-2">
+                <div id="dummy"></div>
+                <div id="element">
+                    <img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-image wow animated fadeIn" data-wow-delay=".1s">
+                </div>
+            </div>
         </div>
-
     </div>
 </div>
+
