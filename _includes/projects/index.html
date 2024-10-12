@@ -1,6 +1,6 @@
 
 <div class="container">
-    <div class="row m-3 mt-5">
+    <div class="row m-3 mt-5 d-flex align-items-stretch">
 
         <!-- Remote Projects -->
         {% for remote_project in page.remote_projects %}
@@ -28,11 +28,8 @@
         {%- assign external      = true -%}
 
         <div class="col-md-6 mb-4 d-flex">
-            <!-- Flexbox로 각 카드 높이 맞춤 -->
-            <div class="card w-100">
-                <!-- 카드 내부에 w-100으로 전체 너비와 높이 사용 -->
-                {% include projects/project-card.html %}
-            </div>
+            <!-- col-md-6으로 가로 2개 배치 -->
+            {% include projects/project-card.html %}
         </div>
         {%- endif -%}
 
@@ -44,28 +41,25 @@
         {% for project in site.projects %}
 
         <div class="col-md-6 mb-4 d-flex">
-            <!-- Flexbox로 각 카드 높이 맞춤 -->
-            <div class="card w-100">
-                <!-- 카드 내부에 w-100으로 전체 너비와 높이 사용 -->
-                {%- assign project_type  = "local" -%}
-                {%- assign project_id    = project.name | slugify -%}
-                {%- assign project_img   = project.image -%}
-                {%- assign project_name  = project.name -%}
-                {%- assign project_desc  = project.description -%}
-                {%- assign project_tools = project.tools -%}
+            <!-- col-md-6으로 가로 2개 배치 -->
+            {%- assign project_type  = "local" -%}
+            {%- assign project_id    = project.name | slugify -%}
+            {%- assign project_img   = project.image -%}
+            {%- assign project_name  = project.name -%}
+            {%- assign project_desc  = project.description -%}
+            {%- assign project_tools = project.tools -%}
 
-                {%- if project.external_url -%}
-                {%- assign project_url = project.external_url -%}
-                {%- assign external    = true -%}
-                {%- else -%}
-                {%- assign project_url = project.url | relative_url -%}
-                {%- assign external    = false -%}
-                {%- endif -%}
+            {%- if project.external_url -%}
+            {%- assign project_url = project.external_url -%}
+            {%- assign external    = true -%}
+            {%- else -%}
+            {%- assign project_url = project.url | relative_url -%}
+            {%- assign external    = false -%}
+            {%- endif -%}
 
-                {% include projects/project-card.html %}
-            </div>
+            {% include projects/project-card.html %}
         </div>
             {% endfor %}
 
         </div>
-    </div>
+   </div>
