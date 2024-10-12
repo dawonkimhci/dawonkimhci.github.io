@@ -1,35 +1,17 @@
-.link-after {
-  content: "";
-  display: block;
-  height: 0.5em;
-  background: $primary;
-}
-
 .nav-link,
 .navbar-brand {
-  &::after {
-    @extend .link-after;
-    width: 0;
-    transition: width 0.3s;
-  }
-
-  &:hover::after {
-    width: 100%;
+  transition: background-color 0.35s;
+  
+  &:hover {
+    background-color: $primary; // 하이라이트 색상
   }
 }
 
 .nav-item.active {
   font-weight: bold;
-
-  &::after {
-    @extend .link-after;
-    width: 100% !important;
-  }
+  background-color: $primary; // 활성화된 항목은 하이라이트 고정
 }
 
 .navbar-brand {
-  margin-bottom: -5px;
-  &::after {
-    margin-top: -0.25em;
-  }
+  margin-bottom: -14px;
 }
