@@ -1,7 +1,7 @@
 .link-after {
   content: "";
   display: block;
-  height: 0.1em;
+  height: 0.15em;
   background: $primary;
 }
 
@@ -10,7 +10,7 @@
   &::after {
     @extend .link-after;
     width: 0;
-    transition: width 0.3s;
+    transition: width 0.35s;
   }
 
   &:hover::after {
@@ -32,3 +32,4 @@
   &::after {
     margin-top: -0.25em;
   }
+}
