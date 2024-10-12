@@ -1,17 +1,16 @@
 .nav-link,
 .navbar-brand {
-  position: relative;
-  z-index: 1;
-  transition: background-color 0.35s, color 0.35s;
+  position: relative; // 요소 배경색을 설정하기 위해 필요
+  transition: background-color 0.35s ease, color 0.35s ease;
 
   &:hover {
-    background-color: $primary; // 원하는 하이라이트 색상
-    color: $text-color-on-highlight; // 하이라이트 시 글자 색상 변경
+    background-color: $primary; // 마우스오버 시 배경색 변경
+    color: $text-light; // 마우스오버 시 글자 색상 변경 (배경색과 대비되는 색)
   }
 }
 
 .nav-item.active {
   font-weight: bold;
-  background-color: $primary; // 활성화된 항목은 하이라이트 고정
-  color: $text-color-on-highlight; // 활성화된 상태의 글자 색상
+  background-color: $primary; // 활성화된 상태 배경색
+  color: $text-light; // 활성화된 상태 글자 색상
 }
