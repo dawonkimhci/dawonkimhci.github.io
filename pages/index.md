@@ -5,4 +5,8 @@ permalink: /
 
 {% include landing.html %}
 
-test
+Hello, This is Dawon Kim, I am a graduate student in Korea.
+
+
+
+{% include social.html %}
