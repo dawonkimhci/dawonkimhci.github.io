@@ -82,3 +82,7 @@ $dark-900: #17191a;
     background-color: $dark-900;
   }
 }
+
+.dark-mode .nav-link::after {
+    background-color: white;
+}
