@@ -8,27 +8,27 @@ permalink: /
 <h3>News</h3>
 <div id="newsContent">
     <ul style="list-style-type: none; padding-left: 0;">
-        <li>
-            <hr style="display: none;" id="line1">
-            <i class="fas fa-chevron-down" onclick="toggleDescription('desc1', this)" style="cursor: pointer;"></i>
+        <li class="news-item" style="line-height: 2.0;">
+            <hr id="line1"> <!-- 라인이 항상 보이도록 수정 -->
+            <i class="fas fa-angle-down" onclick="toggleDescription('desc1', this)" style="cursor: pointer;"></i>
             10 October 2024 news
-            <div id="desc1" style="display: none; margin-left: 20px;">
+            <div id="desc1" class="description" style="display: none; margin-left: 20px;">
                 * description for 10 October 2024 news
             </div>
         </li>
-        <li>
-            <hr style="display: none;" id="line2">
-            <i class="fas fa-chevron-down" onclick="toggleDescription('desc2', this)" style="cursor: pointer;"></i>
+        <li class="news-item" style="line-height: 2.0;">
+            <hr id="line2">
+            <i class="fas fa-angle-down" onclick="toggleDescription('desc2', this)" style="cursor: pointer;"></i>
             11 October 2024 news
-            <div id="desc2" style="display: none; margin-left: 20px;">
+            <div id="desc2" class="description" style="display: none; margin-left: 20px;">
                 * description for 11 October 2024 news
             </div>
         </li>
-        <li>
-            <hr style="display: none;" id="line3">
-            <i class="fas fa-chevron-down" onclick="toggleDescription('desc3', this)" style="cursor: pointer;"></i>
+        <li class="news-item" style="line-height: 2.0;">
+            <hr id="line3">
+            <i class="fas fa-angle-down" onclick="toggleDescription('desc3', this)" style="cursor: pointer;"></i>
             12 October 2024 news
-            <div id="desc3" style="display: none; margin-left: 20px;">
+            <div id="desc3" class="description" style="display: none; margin-left: 20px;">
                 * description for 12 October 2024 news
             </div>
         </li>
@@ -38,20 +38,21 @@ permalink: /
 <script>
     function toggleDescription(descId, icon) {
         var description = document.getElementById(descId);
-        var line = document.getElementById("line" + descId.slice(-1)); // To match the line with the description
+        var parentLi = icon.parentElement; // The <li> element
 
         if (description.style.display === "none") {
             description.style.display = "block";
-            line.style.display = "block";
-            icon.classList.remove('fa-chevron-down');
-            icon.classList.add('fa-chevron-up');
+            parentLi.style.lineHeight = "1.4"; // Description 펼쳐졌을 때 행간 좁힘
+            icon.classList.remove('fa-angle-down');
+            icon.classList.add('fa-angle-up');
         } else {
             description.style.display = "none";
-            line.style.display = "none";
-            icon.classList.remove('fa-chevron-up');
-            icon.classList.add('fa-chevron-down');
+            parentLi.style.lineHeight = "2.0"; // 접혔을 때 제목 사이 행간 넓힘
+            icon.classList.remove('fa-angle-up');
+            icon.classList.add('fa-angle-down');
         }
     }
 </script>
+
 
 <br> 
