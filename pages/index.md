@@ -9,25 +9,25 @@ permalink: /
 <div id="newsContent">
     <ul style="list-style-type: none; padding-left: 0;">
         <li>
-            10 October 2024 news
-            <i class="fas fa-chevron-down" onclick="toggleDescription('desc1', this)" style="cursor: pointer;"></i>
             <hr style="display: none;" id="line1">
+            <i class="fas fa-chevron-down" onclick="toggleDescription('desc1', this)" style="cursor: pointer;"></i>
+            10 October 2024 news
             <div id="desc1" style="display: none; margin-left: 20px;">
                 * description for 10 October 2024 news
             </div>
         </li>
         <li>
-            11 October 2024 news
-            <i class="fas fa-chevron-down" onclick="toggleDescription('desc2', this)" style="cursor: pointer;"></i>
             <hr style="display: none;" id="line2">
+            <i class="fas fa-chevron-down" onclick="toggleDescription('desc2', this)" style="cursor: pointer;"></i>
+            11 October 2024 news
             <div id="desc2" style="display: none; margin-left: 20px;">
                 * description for 11 October 2024 news
             </div>
         </li>
         <li>
-            12 October 2024 news
-            <i class="fas fa-chevron-down" onclick="toggleDescription('desc3', this)" style="cursor: pointer;"></i>
             <hr style="display: none;" id="line3">
+            <i class="fas fa-chevron-down" onclick="toggleDescription('desc3', this)" style="cursor: pointer;"></i>
+            12 October 2024 news
             <div id="desc3" style="display: none; margin-left: 20px;">
                 * description for 12 October 2024 news
             </div>
@@ -53,4 +53,5 @@ permalink: /
         }
     }
 </script>
+
 <br> 
