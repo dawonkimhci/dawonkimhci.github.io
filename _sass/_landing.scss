@@ -22,18 +22,11 @@
 .circle-image {
   width: 100%;
   height: auto;
-  border-radius: 15px; /* Change this value to adjust the corner roundness */
-  object-fit: cover;
-  object-position: center;
-}
-
-/* 반응형 스타일: 작은 화면에 대응 */
-@media (max-width: 768px) {
-    .row {
-        padding: 1rem; /* 좁은 화면에서 패딩 줄이기 */
-    }
-
-    .circle-image {
-        margin-bottom: 1.5rem; /* 텍스트와 이미지 사이의 간격 조정 */
-    }
+  border-radius: 15px; /* 모서리 둥글게 */
+  object-fit: cover; /* 이미지가 비율을 유지하면서 컨테이너에 맞춰짐 */
+  object-position: center; /* 이미지가 중앙에 위치 */
+  
+  /* 추가로 필요한 코드 */
+  aspect-ratio: 1 / 1; /* 최신 브라우저에서 1:1 비율 강제 */
+  max-height: 100%; /* 이미지가 1:1 비율을 넘어가는 경우 크기 조정 */
 }
