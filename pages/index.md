@@ -42,6 +42,8 @@ permalink: /
     </ul>
 </div>
 
+<br><br>
+
 <!-- PRESS -->
 <h3>Press</h3>
 <div id="pressContent" style="max-width: 1200px; margin: 0 auto; padding: 0 40px;">
