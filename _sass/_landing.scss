@@ -26,11 +26,8 @@
   border-radius: 15px; /* 모서리 둥글게 */
   object-fit: cover; /* 이미지가 비율을 유지하면서 컨테이너에 맞춰짐 */
   object-position: center; /* 이미지가 중앙에 위치 */
+  
+  /* 추가로 필요한 코드 */
   aspect-ratio: 1 / 1; /* 최신 브라우저에서 1:1 비율 강제 */
   max-height: 100%; /* 이미지가 1:1 비율을 넘어가는 경우 크기 조정 */
-  transition: transform 0.3s ease; /* 부드러운 변화를 위해 추가 */
-}
-
-.circle-image:hover {
-  transform: scale(1.1); /* 마우스 오버 시 확대 */
 }
