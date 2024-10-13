@@ -34,6 +34,7 @@ body {
     position: relative;
     color: inherit; /* 기본 텍스트 색상 유지 */
     text-decoration: none; /* 기본 밑줄 제거 */
+    display: inline-block; /* 밑줄 애니메이션을 위해 inline-block 사용 */
 }
 
 /* 마우스 오버 시 밑줄 애니메이션 */
@@ -44,15 +45,10 @@ body {
     height: 2px;
     bottom: -3px; /* 텍스트 바로 아래에 밑줄 */
     left: 0;
-    background-color: $primary; /* 기본 밑줄 색상 */
-    transition: width 0.3s;
+    background-color: black; /* 기본 밑줄 색상 */
+    transition: width 0.3s ease-in-out; /* 애니메이션 속성 추가 */
 }
 
 .hover-underline:hover::after {
-    width: 100%;
-}
-
-/* 다크모드에서 밑줄 색상 변경 */
-.dark-mode .hover-underline::after {
-    background-color: white; /* 다크모드에서는 밑줄이 흰색으로 변경 */
+    width: 100%; /* 마우스 오버 시 전체 밑줄이 나타남 */
 }
