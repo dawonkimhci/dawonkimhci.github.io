@@ -27,3 +27,13 @@
   object-position: center;
 }
 
+/* 반응형 스타일: 작은 화면에 대응 */
+@media (max-width: 768px) {
+    .row {
+        padding: 1rem; /* 좁은 화면에서 패딩 줄이기 */
+    }
+
+    .circle-image {
+        margin-bottom: 1.5rem; /* 텍스트와 이미지 사이의 간격 조정 */
+    }
+}
