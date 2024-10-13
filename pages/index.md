@@ -12,7 +12,7 @@ permalink: /
         <li class="news-item" style="line-height: 2.0;">
             <hr id="line1">
             <i class="fas fa-angle-down" style="cursor: pointer; margin-right: 10px;" onclick="toggleDescription('desc1')"></i>
-            <span onclick="toggleDescription('desc1')" style="cursor: pointer;">10 October 2024 news</span>
+            <span onclick="toggleDescription('desc1')" style="cursor: pointer;">10 October 2024 news accepted international conference paper!</span>
             <div id="desc1" class="description" style="display: none; margin-left: 20px;">
                 * description for 10 October 2024 news
             </div>
@@ -20,7 +20,7 @@ permalink: /
         <li class="news-item" style="line-height: 2.0;">
             <hr id="line2">
             <i class="fas fa-angle-down" style="cursor: pointer; margin-right: 10px;" onclick="toggleDescription('desc2')"></i>
-            <span onclick="toggleDescription('desc2')" style="cursor: pointer;">11 October 2024 news</span>
+            <span onclick="toggleDescription('desc2')" style="cursor: pointer;">11 October 2024 news accepted international conference paper!</span>
             <div id="desc2" class="description" style="display: none; margin-left: 20px;">
                 * description for 11 October 2024 news
             </div>
@@ -28,7 +28,7 @@ permalink: /
         <li class="news-item" style="line-height: 2.0;">
             <hr id="line3">
             <i class="fas fa-angle-down" style="cursor: pointer; margin-right: 10px;" onclick="toggleDescription('desc3')"></i>
-            <span onclick="toggleDescription('desc3')" style="cursor: pointer;">12 October 2024 news</span>
+            <span onclick="toggleDescription('desc3')" style="cursor: pointer;">12 October 2024 news accepted international conference paper!</span>
             <div id="desc3" class="description" style="display: none; margin-left: 20px;">
                 * description for 12 October 2024 news
             </div>
