@@ -14,3 +14,31 @@
     box-shadow: -2px 8px 40px -12px rgba(0, 0, 0, 0.24);
   }
 }
+
+
+
+.collaboration-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.collab-item {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.collab-item:hover {
+  transform: scale(1.05);
+}
+
+.collab-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
