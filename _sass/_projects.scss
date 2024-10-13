@@ -18,20 +18,43 @@
 
 
 
+.collaboration-container {
+  width: 60%;
+  overflow: hidden;
+}
 
-    .collaboration-logos {
-      display: flex;
-      justify-content: center;
-      gap: 30px;
-      padding: 20px 0;
-    }
+.collaboration-logos {
+  display: flex;
+  align-items: center;
+  animation: scroll-logos 20s linear infinite;
+}
 
-    .logo-item img {
-      height: 60px;
-      filter: grayscale(100%);
-      transition: filter 0.3s ease;
-    }
+.logo-item {
+  flex: 0 0 auto;
+  padding: 0 10px;
+}
 
-    .logo-item img:hover {
-      filter: grayscale(0%);
-    }
+.logo-item img {
+  height: 50px;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.logo-item img:hover {
+  filter: grayscale(0%);
+}
+
+
+@keyframes scroll-logos {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+.collaboration-logos:hover {
+  animation-play-state: paused;
+}
