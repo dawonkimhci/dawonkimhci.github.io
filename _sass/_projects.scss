@@ -14,3 +14,24 @@
     box-shadow: -2px 8px 40px -12px rgba(0, 0, 0, 0.24);
   }
 }
+
+
+/* Collaborations 로고 컨테이너 */
+.collaboration-logos {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* 로고들 사이에 간격 추가 */
+  padding: 20px 0; /* 위아래 여백 */
+}
+
+/* 각 로고 스타일 */
+.logo-item img {
+  width: 50px; /* 로고 크기 */
+  filter: grayscale(100%); /* 기본적으로 회색 적용 */
+  transition: filter 0.3s ease; /* 마우스 오버 시 부드럽게 전환 */
+}
+
+/* 마우스 오버 시 색상 표시 */
+.logo-item img:hover {
+  filter: grayscale(0%); /* 마우스 오버 시 필터 제거로 원래 색상 표시 */
+}
