@@ -1,11 +1,15 @@
 <div class="container">
     <div class="row justify-content-start align-items-start p-4">
-        <!-- 왼쪽 이미지 -->
+        <!-- 왼쪽 동영상 -->
         <div class="col-lg-6 col-md-12 text-center mt-4">
             <div id="container" class="my-2">
                 <div id="dummy"></div>
                 <div id="element">
-                    <img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-image wow animated fadeIn" data-wow-delay=".1s">
+                    <!-- 동영상 추가 -->
+                    <video id="hover-video" class="circle-video" muted>
+                        <source src="/assets/video/video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
             </div>
         </div>
