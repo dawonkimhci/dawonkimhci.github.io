@@ -28,15 +28,15 @@
 </div>
 
 <script>document.addEventListener('DOMContentLoaded', function () {
-      const video = document.getElementById('hover-video');
+        const video = document.getElementById('hover-video');
 
-      video.addEventListener('mouseenter', function () {
-        video.play();
-        video.muted = false; 
-      });
+        video.addEventListener('mouseenter', function () {
+            video.play();
+            video.muted = false; 
+        });
 
-      video.addEventListener('mouseleave', function () {
-        video.pause();
-        video.currentTime = 0;
-      });
+        video.addEventListener('mouseleave', function () {
+            video.pause();
+            video.currentTime = 0; 
+        });
     });</script>
