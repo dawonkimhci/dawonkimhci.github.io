@@ -8,19 +8,17 @@
   height: 100%;
   overflow: hidden;
 
-  /* 기본 패딩 설정 (이미지가 있을 때) */
   &.has-image {
     padding: 0;
   }
 
-  /* 이미지가 없을 때 패딩 설정 */
   &.no-image {
     padding: 15px;
   }
 
   .card-body {
-    padding: 15px; /* 카드 본문 패딩 설정 */
-    flex-grow: 1; /* 본문이 남은 공간을 채우도록 설정 */
+    padding: 15px;
+    flex-grow: 1; 
   }
 
   .card-footer {
