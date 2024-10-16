@@ -52,7 +52,7 @@ author:
 
 ### landing page's author profile type ###
 landing:
-  display_mode: "image" # "image" 또는 "video"로 설정하여 표시 모드 선택
+  display_mode: "video" # "image" 또는 "video"로 설정하여 표시 모드 선택
 
 ### Posts ###
 permalink: /blog/:title
