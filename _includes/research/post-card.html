@@ -24,14 +24,14 @@
 {%- else -%}
   {%- assign post_url = post.url | relative_url -%}
 {%- endif -%}
-    
+
 <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s">
     <a href="{{ post_url }}" class="post card {{ card_style }}" {%- if post.external_url and site.open_new_tab -%} target="_blank" {%- endif -%}>
 
         <!-- 이미지가 있을 경우에만 렌더링 -->
         {% if post.image %}
         <div class="post-card-image">
-            <img src="{{ post.image }}" alt="{{ post.title }}" style="width: 100%; height: auto; display: block;">
+            <img src="{{ post.image }}" alt="{{ post.title }}">
         </div>
         {% endif %}
 
