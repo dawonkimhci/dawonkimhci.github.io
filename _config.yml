@@ -19,7 +19,6 @@ nav_exclude:                                            # The following paths ar
   - pages/index.md
   - documentation/partials/**                           # For Documentation Only
   - pages/about.md                                      # About 페이지 경로를 제외
-  - pages/blog.md                                      # blog 페이지 경로를 제외
 
 
 ### Author Info ###
