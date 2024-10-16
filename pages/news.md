@@ -2,7 +2,7 @@
 layout: default
 permalink: /news/
 ---
-<br><br>
+<br>
 <!-- NEWS -->
 <h3 style="padding: 0 20px;">News</h3>
 <div id="newsContent" style="max-width: 1200px; margin: 0 auto; padding: 0 40px;">

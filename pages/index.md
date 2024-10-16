@@ -7,7 +7,7 @@ permalink: /
 <br>
 <!-- NEWS -->
 <h3 style="padding: 0 20px;">
-  <a href="/news" class="hover-underline">News</a>
+  <a href="/news">News</a>
 </h3>
 <div id="newsContent" style="max-width: 1200px; margin: 0 auto; padding: 0 40px;">
     <ul style="list-style-type: none; padding-left: 0;">
