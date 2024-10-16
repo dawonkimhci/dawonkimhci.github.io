@@ -104,3 +104,5 @@ exclude:
   - CONTRIBUTING.md
   - LICENSE
   - "*.log"
+
+future: true
