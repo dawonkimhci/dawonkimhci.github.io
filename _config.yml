@@ -22,7 +22,6 @@ nav_exclude:                                            # The following paths ar
   - pages/about.md
   - pages/news.md
 
-
 ### Author Info ###
 author:
   name              : Dawon Kim
