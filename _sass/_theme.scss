@@ -1,0 +1,35 @@
+@mixin themed($property, $light-value, $dark-value) {
+  [data-theme="light"] & {
+    #{$property}: $light-value;
+  }
+
+  [data-theme="dark"] & {
+    #{$property}: $dark-value;
+  }
+}
+
+#theme-toggler:before {
+  @include themed(content, "\f185", "\f186"); // Use sun (\f185) for day and moon (\f186) for night
+  font-family: 'Font Awesome 5 Free'; // Ensure Font Awesome font is applied
+  font-weight: 900; // Font Awesome solid icons require this weight
+}
+
+.navbar-themed {
+  .navbar-brand,
+  .navbar-nav .nav-link.active {
+    @include themed(color, $text-black, $text-white);
+  }
+
+  .navbar-nav .nav-link {
+    @include themed(color, rgba($text-black, 0.5), rgba($text-white, 0.5));
+  }
+}
+
+.text-themed {
+  @include themed(color, $text-black, $text-white);
+}
+
+.bg-themed {
+  @include themed(background-color, $light, $dark);
+}
+
