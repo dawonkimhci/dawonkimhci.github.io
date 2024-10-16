@@ -1,7 +1,7 @@
 <div class="card-group mt-2">
 
-    {% if post.category == "research" %}
+  {% for post in site.posts %}
     {% include research/post-card.html %}
-    {% endfor %}
-
+  {% endfor %}
+  
 </div>
