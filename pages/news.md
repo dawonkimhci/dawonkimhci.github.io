@@ -2,12 +2,8 @@
 layout: default
 permalink: /
 ---
-
-{% include landing.html %}
-<br>
 <!-- NEWS -->
-<a href="/news" class="hover-underline">
-<h3 style="padding: 0 10px;">News</h3></a>
+<h3 style="padding: 0 10px;">News</h3>
 <div id="newsContent" style="max-width: 1200px; margin: 0 auto; padding: 0 40px;">
     <ul style="list-style-type: none; padding-left: 0;">
         <li class="news-item" style="line-height: 1.5;">
