@@ -1,11 +1,14 @@
 ---
 layout: default
 title: Projects
+permalink: /projects/
 weight: 2
-permalink: /blog/
+remote_projects:
+  - git-for-wizards
+  - arduino-visitor-counter
 ---
-<br>
-{% include blog/index_projects.html %}
+<!---project cards----->
+{% include projects/index.html %}
 
 <!--collaborations-->
 {% include projects/project-collaborations.html %}
