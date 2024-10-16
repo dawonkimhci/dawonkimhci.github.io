@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /
+permalink: /news/
 ---
 <!-- NEWS -->
 <h3 style="padding: 0 10px;">News</h3>
