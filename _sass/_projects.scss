@@ -1,63 +1,52 @@
-.project.card {
+.search-box {
+  box-shadow: none !important;
+}
+
+.post.card {
   border-radius: $rounded-borders;
   text-decoration: none !important;
-  margin: 10px auto;
-
-  .card-img-top {
-    border-radius: $rounded-borders $rounded-borders 0 0;
-  }
-
-  transition: transform 400ms;
-
-  &:hover:not(.post) {
-    transform: translateY(-8px);
-    box-shadow: -2px 8px 40px -12px rgba(0, 0, 0, 0.24);
-  }
-}
-
-
-
-
-
-.collaboration-container {
-  width: 100%;
-  max-width: 900px;
-  margin: 0 auto;
+  height: 100%;
   overflow: hidden;
-}
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 
-.collaboration-logos {
-  display: flex;
-  align-items: center;
-  animation: scroll-logos 17s linear infinite;
-}
-
-.logo-item {
-  flex: 0 0 auto;
-  padding: 0 10px;
-}
-
-.logo-item img {
-  height: 50px;
-  filter: grayscale(100%);
-  transition: filter 0.3s ease;
-}
-
-.logo-item img:hover {
-  filter: grayscale(0%);
-}
-
-
-@keyframes scroll-logos {
-  0% {
-    transform: translateX(100%);
+  &:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
   }
-  100% {
-    transform: translateX(-200%);
+
+  &.has-image {
+    padding: 0;
+  }
+
+  &.no-image {
+    padding: 20px;
+  }
+
+  .card-body {
+    padding: 20px;
+    flex-grow: 1; 
+  }
+
+  .card-footer {
+  padding: 15px 20px;
+  }
+
+  .tags {
+  margin-top: 10px;
   }
 }
 
 
-.collaboration-logos:hover {
-  animation-play-state: paused;
+.post-card-image {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.post-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
