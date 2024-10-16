@@ -19,12 +19,13 @@ nav_exclude:                                            # The following paths ar
   - pages/index.md
   - documentation/partials/**                           # For Documentation Only
   - pages/about.md
-  - pages/blog.md
+  - pages/blog.html
 
 ### Author Info ###
 author:
   name              : Dawon Kim
   image             : "/assets/images/1.png"
+  video             : "/assets/video/video.mp4"
 # behance           : your_username
 # dribbble          : your_username
   email             : username@domain.com
@@ -46,6 +47,9 @@ author:
 # keybase           : your_username
   googlescholar     : your_username
 
+### landing page's author profile type ###
+landing:
+  display_mode: "image" # "image" 또는 "video"로 설정하여 표시 모드 선택
 
 ### Posts ###
 permalink: /blog/:title

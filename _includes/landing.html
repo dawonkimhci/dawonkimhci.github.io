@@ -1,18 +1,24 @@
 <div class="container">
     <div class="row justify-content-start align-items-start p-4">
-        <!-- 왼쪽 동영상 -->
+        <!-- 왼쪽 미디어 (이미지 또는 동영상) -->
         <div class="col-lg-6 col-md-12 text-center mt-4">
             <div id="container" class="my-2">
                 <div id="dummy"></div>
                 <div id="element">
-                    <!-- 동영상 추가 -->
+                    {% if site.landing.display_mode == "image" %}
+                    <!-- 이미지 표시 -->
+                    <img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-image wow animated fadeIn" data-wow-delay=".1s">
+                    {% elsif site.landing.display_mode == "video" %}
+                    <!-- 동영상 표시 -->
                     <video id="hover-video" class="circle-video" muted>
-                        <source src="/assets/video/video.mp4" type="video/mp4">
+                        <source src="{{ site.author.video }}" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
+                    {% endif %}
                 </div>
             </div>
         </div>
+
 
         <!-- 오른쪽 텍스트 -->
         <div class="col-lg-6 col-md-12 d-flex flex-column justify-content-center mt-4">
@@ -27,18 +33,21 @@
     </div>
 </div>
 
+
+<!-- JavaScript (동영상 제어) -->
 <script>document.addEventListener('DOMContentLoaded', function () {
-      const video = document.getElementById('hover-video');
+        const video = document.getElementById('hover-video');
+        if (video) {
+            // 마우스 오버 시 동영상 재생
+            video.addEventListener('mouseenter', function () {
+                video.play();
+                video.muted = false; // 소리도 재생
+            });
 
-      // 마우스 오버 시 동영상 재생
-      video.addEventListener('mouseenter', function () {
-        video.play();
-        video.muted = false; // 소리도 재생
-      });
-
-      // 마우스가 동영상 밖으로 나가면 동영상 정지
-      video.addEventListener('mouseleave', function () {
-        video.pause();
-        video.currentTime = 0; // 동영상 처음으로 되돌리기
-      });
+            // 마우스가 동영상 밖으로 나가면 동영상 정지
+            video.addEventListener('mouseleave', function () {
+                video.pause();
+                video.currentTime = 0; // 동영상 처음으로 되돌리기
+            });
+        }
     });</script>
