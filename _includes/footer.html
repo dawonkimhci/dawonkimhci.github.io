@@ -1,8 +1,12 @@
 <footer class="mt-auto py-3 text-center">
-    
-  <small class="text-muted mb-2">
-    <i class="far fa-copyright"></i>
-    2024 {{ site.author.name }}. <a href="/archive">Archive</a>
-  </small>
-
+    <small class="text-muted mb-2">
+        <i class="far fa-copyright"></i>
+        2024 {{ site.author.name }}. <a href="/archive">Archive</a>
+    </small>
+    <!-- 맨 위로 이동 버튼 -->
+    <button onclick="scrollToTop()" class="btn btn-link">Back to Top</button>
 </footer>
+
+<script>function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }</script>
