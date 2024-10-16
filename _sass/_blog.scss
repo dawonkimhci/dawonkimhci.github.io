@@ -8,21 +8,17 @@
   height: 100%;
   overflow: hidden;
 
-  /* 이미지가 있을 때의 스타일 */
   &.has-image {
     padding: 0;
   }
 
-  /* 이미지가 없을 때의 스타일 (최초 스타일) */
   &.no-image {
-    padding: 15px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* 기본 그림자 */
-    background-color: $card-background-color; /* 카드 배경색 */
+    padding: 20px;
   }
 
   .card-body {
-    padding: 15px; /* 카드 본문 패딩 설정 */
-    flex-grow: 1; /* 본문이 남은 공간을 채우도록 설정 */
+    padding: 20px;
+    flex-grow: 1; 
   }
 
   .card-footer {
