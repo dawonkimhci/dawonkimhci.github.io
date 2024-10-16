@@ -5,24 +5,23 @@
 .post.card {
   border-radius: $rounded-borders;
   text-decoration: none !important;
-  padding: 15px;
+  padding: 0; /* 기존 padding 제거 */
   height: 100%;
-  overflow: hidden;
+  overflow: hidden; /* 카드 내부 내용이 카드 경계를 넘지 않도록 설정 */
+
+  /* 카드 내 이미지가 포함된 컨텐츠를 위해 추가 */
+  display: flex;
+  flex-direction: column;
+
+  .card-body {
+    padding: 15px; /* 카드 본문 패딩 설정 */
+    flex-grow: 1; /* 본문이 남은 공간을 채우도록 설정 */
+  }
 
   .card-footer {
     font-size: 14px;
-    margin: 0 -15px -15px -15px;
+    margin: 0;
     padding: 15px 35px;
-  }
-}
-
-.post-metadata {
-  font-size: 14px;
-  margin-top: -6px;
-
-  .tag:hover {
-    background-color: $primary;
-    color: white !important;
   }
 }
 
