@@ -57,7 +57,7 @@
 
         <!-- 카드 푸터에 날짜 추가 -->
         <div class="card-footer {{ text_style }}">
-            <small>{{ post.date | date_to_long_string }}</small>
+            {{ post.date | date: "%B %Y" }}
         </div>
     </a>
 </div>
