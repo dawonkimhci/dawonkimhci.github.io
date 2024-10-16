@@ -21,7 +21,6 @@ nav_exclude:                                            # The following paths ar
   - documentation/partials/**                           # For Documentation Only
   - pages/about.md
   - pages/news.md
-  - pages/blog.html
 
 
 ### Author Info ###
