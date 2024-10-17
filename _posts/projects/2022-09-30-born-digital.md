@@ -1,7 +1,7 @@
 ---
 date: 2022-09-30
 title: Born Digital
-tags: [AI][Aurgumented Reality]
+tags: [AI, Aurgumented Reality]
 category: projects
 style: 
 color: 
