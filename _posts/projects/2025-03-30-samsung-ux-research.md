@@ -1,6 +1,6 @@
 ---
 date: 2025-03-30
-title: "<i class='fa fa-lock' style='font-size: 0.8em;'></i> Samsung UX Research"
+title: "Samsung UX Research <i class='fa fa-lock' style='font-size: 0.5em;'></i>"
 tags: [AI, AI agent, UX Design]
 category: projects
 style: 
