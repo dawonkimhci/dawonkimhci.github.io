@@ -1,11 +1,11 @@
 ---
-date: 2023-10-20
-title: Project-2
-tags: [Project]
+date: 2022-10-30
+title: Meta Design Jam in Seoul, APAC
+tags: [Metaverse, Aurgumented Reality, UX Design]
 category: projects
 style: 
 color: 
-description: Project test card-2
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 image: "/assets/images/1.png"
 ---
 

@@ -1,11 +1,11 @@
 ---
-date: 2022-09-30
-title: Born Digital
-tags: [AI, Aurgumented Reality, Media Art]
+date: 2020-03-30
+title: Rainbow Ruby 2
+tags: [Television]
 category: projects
 style: 
 color: 
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+description: PLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 image: "/assets/images/1.png"
 ---
 
