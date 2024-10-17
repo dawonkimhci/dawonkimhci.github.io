@@ -1,6 +1,6 @@
 ---
 date: 2025-03-30
-title: Samsung UX research
+title: "Samsung UX Research <i class='fa fa-lock'></i>"
 tags: [AI, AI agent, UX Design]
 category: projects
 style: 
