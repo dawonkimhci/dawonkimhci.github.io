@@ -1,7 +1,7 @@
 ---
 date: 2024-11-30
 title: AI Literacy
-tags: [Human-Computer Interaction, AI, AI Literacy]
+tags: [HCI, AI, AI Literacy]
 category: research
 style: 
 color: 

@@ -1,7 +1,7 @@
 ---
 date: 2024-06-30
 title: Imaginate
-tags: [Human-Computer Interaction, AI, AI Literacy]
+tags: [HCI, AI, AI Literacy]
 category: projects
 style: 
 color: 

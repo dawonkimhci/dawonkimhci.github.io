@@ -1,7 +1,7 @@
 ---
 date: 2024-12-30
 title: Virtual Human
-tags: [Human-Computer Interaction, AI, Metaverse, Virtual Human]
+tags: [HCI, AI, Metaverse, Virtual Human]
 category: research
 style: 
 color: 

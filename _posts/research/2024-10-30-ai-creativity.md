@@ -1,7 +1,7 @@
 ---
 date: 2024-10-30
 title: AI Creativity
-tags: [Human-Computer Interaction, AI, AI Creativity]
+tags: [HCI, AI, AI Creativity]
 category: research
 style: 
 color: 
