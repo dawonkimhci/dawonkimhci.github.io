@@ -1,6 +1,6 @@
 ---
 date: 2024-10-30
-title: AI Creativity
+title: Human perception of AI
 tags: [HCI, AI, AI Creativity]
 category: research
 style: 
