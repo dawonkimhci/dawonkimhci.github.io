@@ -1,11 +1,11 @@
 ---
-date: 2024-10-20
-title: Research-2
-tags: [Research]
+date: 2024-12-30
+title: Virtual Human
+tags: [Human-Computer Interaction, AI, Metaverse, Virtual Human]
 category: research
 style: 
 color: 
-description: Research test card-2
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 image: "/assets/images/1.png"
 ---
 

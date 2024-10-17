@@ -1,8 +1,8 @@
 ---
-date: 2024-06-30
-title: Imaginate
+date: 2024-11-30
+title: AI Literacy
 tags: [Human-Computer Interaction, AI, AI Literacy]
-category: projects
+category: research
 style: 
 color: 
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
