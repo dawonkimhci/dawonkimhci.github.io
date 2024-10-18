@@ -21,7 +21,8 @@
         {%- assign url = post.url | relative_url -%}
       {%- endif -%}
     <a href="{{ url }}"><li>{{ post.title }}</li></a>
-    <small class="text-muted"> - {{ post.date | date_to_long_string }}</small>
+    <small class="text-muted"> <small> - {{ post.category | capitalize }} | {{ post.date | date: "%m %Y" }}</small>
+</small>
     <br>
     {%- endif -%}
   {% endfor %}
