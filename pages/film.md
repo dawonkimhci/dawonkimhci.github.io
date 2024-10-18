@@ -1,10 +1,8 @@
 ---
 layout: page
 title: Film
-permalink: /film/
 weight: 4
+permalink: /film/
 ---
-
-# **Film**
-
-here is my artwork
+<br>
+{% include film/index.html %}

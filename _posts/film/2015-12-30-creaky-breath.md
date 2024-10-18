@@ -1,8 +1,8 @@
 ---
-date: 2024-11-30
-title: AI Literacy
-tags: [HCI, AI, AI Literacy]
-category: research
+date: 2015-12-30
+title: Creaky Breath
+tags: [Film]
+category: film
 style: 
 color: 
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
