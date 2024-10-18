@@ -6,7 +6,7 @@ category: projects
 style: 
 color: 
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-image: "/assets/images/1.png"
+image:
 ---
 
 Source: [Nikhil Thota](https://medium.com/@nikhilthota/digital-minimalism-ac083064b4e4)
